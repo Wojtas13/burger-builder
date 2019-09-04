@@ -7,7 +7,6 @@ This app uses Axios to send orders to firebase after passing checkout.
 ### How to start?
 
 ```
-
 npm
 npm start
 
