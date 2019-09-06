@@ -1,6 +1,6 @@
 # Burger Builder
 
-This app uses Axios to send orders to firebase after passing checkout.
+This app uses Axios to sends orders to firebase after checkout.
 
 ### Wojciech Krupa - learning React basics
 
@@ -9,5 +9,4 @@ This app uses Axios to send orders to firebase after passing checkout.
 ```
 npm
 npm start
-
 ```
