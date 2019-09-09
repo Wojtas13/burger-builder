@@ -21,6 +21,11 @@
   height: 80%;
 }
 
+.DrawerToggle {
+  padding: 16px 12px;
+  cursor: pointer;
+}
+
 @media (max-width: 499px) {
   .DesktopOnly {
     display: none;
