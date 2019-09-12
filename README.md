@@ -28,4 +28,4 @@ npm start
 
 
 
-![](https://i.imgur.com/6zEnCEX.png)
+![](https://i.imgur.com/QrgC1z9.png)
