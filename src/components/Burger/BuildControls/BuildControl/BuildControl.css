@@ -1,8 +1,9 @@
 .BuildControl {
+  width: 70%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin: 5px 0;
+  margin: 6px 0;
 }
 
 .BuildControl button {
@@ -19,13 +20,12 @@
 .BuildControl button:disabled {
   background-color: #ac9980;
   border: 1px solid #7e7365;
-  color: #ccc;
+  color: #fff;
   cursor: default;
 }
 
 .BuildControl button:hover:disabled {
-  background-color: #ac9980;
-  color: #ccc;
+  background-color: #aa6817;
   cursor: not-allowed;
 }
 
@@ -53,6 +53,6 @@
 
 .BuildControl .More:hover,
 .BuildControl .More:active {
-  background-color: #99703f;
+  background-color: #ac9980;
   color: white;
 }

@@ -2,10 +2,10 @@ import * as actionTypes from "../actions/actionTypes";
 import { updateObject } from "../../shared/utility";
 
 const INGREDIENT_PRICES = {
-  salad: 0.5,
-  cheese: 0.4,
-  meat: 1.3,
-  bacon: 0.7
+  salad: 0.8,
+  cheese: 1.3,
+  meat: 2.3,
+  bacon: 1.5
 };
 
 const initState = {

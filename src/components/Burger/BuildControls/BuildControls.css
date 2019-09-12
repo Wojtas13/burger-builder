@@ -1,5 +1,6 @@
 .BuildControls {
   width: 100%;
+  max-height: 400px;
   background-color: #cf8f2e;
   display: flex;
   flex-flow: column;
@@ -17,7 +18,7 @@
   color: #966909;
   font-family: inherit;
   font-size: 1.2em;
-  padding: 15px 30px;
+  padding: 10px 20px;
   box-shadow: 2px 2px 2px #966909;
 }
 

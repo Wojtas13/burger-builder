@@ -15,10 +15,14 @@ const Burger = props => {
     }, []);
 
   if (transformedIngredients.length === 0) {
-    transformedIngredients = <p>Please add some ingredients</p>;
+    transformedIngredients = (
+      <p className={classes.paragraph}>Please add some ingredients</p>
+    );
   }
   return (
-    <div className={classes.Burger}>
+    <div
+      className={props.classy == null ? classes.Burger : classes.BurgerInOrder}
+    >
       <BurgerIngredient type="bread-top" />
       {transformedIngredients}
       <BurgerIngredient type="bread-bottom" />

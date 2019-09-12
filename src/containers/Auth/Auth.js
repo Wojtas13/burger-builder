@@ -16,7 +16,7 @@ export class Auth extends Component {
         elementType: "input",
         elementConfig: {
           type: "email",
-          placeholder: "Mail address"
+          placeholder: "e-mail"
         },
         value: "",
         validation: {
@@ -30,7 +30,7 @@ export class Auth extends Component {
         elementType: "input",
         elementConfig: {
           type: "password",
-          placeholder: "Password"
+          placeholder: "password"
         },
         value: "",
         validation: {
@@ -122,7 +122,7 @@ export class Auth extends Component {
           <Button btnType="Success">Submit</Button>
         </form>
         <Button btnType="Danger" clicked={this.switchAuthModeHandler}>
-          Switch to {this.state.isSignup ? "Sign in" : "Sign up"}
+          Switch to {this.state.isSignup ? "Login" : "Sign up"}
         </Button>
       </div>
     );
