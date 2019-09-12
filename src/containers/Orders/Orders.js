@@ -7,7 +7,7 @@ import withErrorHandler from "../../hoc/withErrorHandler/withErrorHandler";
 import * as actions from "../../store/actions/index";
 import Spinner from "../../components/UI/Spinner/Spinner";
 
-class Orders extends Component {
+export class Orders extends Component {
   state = {
     orders: [],
     loading: true
